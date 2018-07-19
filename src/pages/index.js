@@ -17,7 +17,7 @@ const IndexPage = ({data}) => {
   <div>
   <div className="about-me-header">
     <Link to="page-2"> <img src={MeCartoon} height="70px" width="70px"/></Link>
-    <h6>About Me</h6>
+    <a href="page-2"><h6>About Me</h6></a>
   </div>
     <div>
        <img src={BannerImage}/>

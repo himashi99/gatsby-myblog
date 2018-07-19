@@ -57,6 +57,11 @@ footer {
   text-transform: uppercase;
 }
 
+.about-me-header a {
+  text-decoration: none;
+  color: black;
+}
+
 container {
   display: flex;
   width: 100%;
@@ -831,6 +836,14 @@ pre tt:after {
   .copyright {
     margin: auto;
     padding-right: 0px;
+  }
+
+  .about-me-header {
+    justify-content: flex-start;
+  }
+
+  .about-me-header h6 {
+    letter-spacing: 0.3rem;
   }
 }
 
