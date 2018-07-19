@@ -73,7 +73,7 @@ const IndexPage = ({data}) => {
             <img src={EmailIcon} alt="Email Icon" height="40px" width="40px"/>
             <div>
               <p className="icon-name">Email</p>
-              <p className="link-address">himashi.hettegedona@icloud.com</p>
+              <p className="link-address email-address">himashi.hettegedona@icloud.com</p>
             </div>
           </div>
           </a>

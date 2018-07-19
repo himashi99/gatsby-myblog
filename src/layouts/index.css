@@ -70,6 +70,9 @@ container {
 .blog-post-box {
   flex-basis: 50rem;
   flex-shrink: 1;
+  margin: 0 10px 0 100px;
+  padding: 0px 1.0875rem 1.45rem;
+  padding-top: 0;
 }
 
 section {
@@ -762,12 +765,6 @@ pre tt:after {
   content: "";
 }
 
-.blog-post-box {
-    margin: 0 10px 0 100px;
-    padding: 0px 1.0875rem 1.45rem;
-    padding-top: 0;
-  }
-
 .links-box-mobile {
   display: none;
 }
@@ -776,13 +773,18 @@ pre tt:after {
   background-color:	#ECECEC;
 }
 
+/*------------------------------------------------- Media Queries----------------------------------------------------------  */
+
+/* Small Devices, Tablets */
+
+/* if the screen size is less than or equal to 400px */
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
-  .blog-post-post {
+  .blog-post-box {
     margin: 0 !important;
-    padding: 0 !important;
   }
   container {
     flex-wrap: wrap-reverse;
@@ -810,17 +812,14 @@ pre tt:after {
     margin: auto;
     padding-right: 0px;
   }
-
 }
 
-/*------------------------------------------------- Media Queries----------------------------------------------------------  */
-/* Small Devices, Tablets */
-
-/* if the screen size is less than or equal to 400px */
-
-
-@media only screen and (max-width : 400px) {
-  .article-box {
-    background-color: red;
+/* if the screen size is greater thatn 400px and less than 768px */
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  .blog-post-box {
+    margin: 0 !important;
+  }
+  .email-address {
+    font-size: 0.6rem;
   }
 }
