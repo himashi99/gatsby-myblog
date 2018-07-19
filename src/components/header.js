@@ -22,7 +22,8 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <Link to="/"><img src={MeCartoon} height="70px" width="70px"/></Link>
-      <h1 style={{ margin: 0 }}>
+      <h1 className="blog-name"
+      style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
