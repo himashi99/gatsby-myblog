@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import MeCartoon from '../images/me-cartoon.png';
+
 const Header = ({ siteTitle }) => (
   <div
     style={{
@@ -19,6 +21,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
+      <Link to="/"><img src={MeCartoon} height="70px" width="70px"/></Link>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"

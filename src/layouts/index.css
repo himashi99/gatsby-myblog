@@ -842,8 +842,14 @@ pre tt:after {
     justify-content: flex-start;
   }
 
+  .about-me-header img {
+    height: 66px;
+    width=: 60px;
+  }
+
   .about-me-header h6 {
     letter-spacing: 0.3rem;
+    font-size: 0.7rem;
   }
 }
 

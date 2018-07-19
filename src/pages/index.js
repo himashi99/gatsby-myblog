@@ -7,6 +7,7 @@ import HandImage from '../images/wave-hand.svg';
 import GithubIcon from '../images/github.svg';
 import TwitterIcon from '../images/twitter.svg';
 import MediumIcon from '../images/medium.svg';
+import InternetIcon from '../images/internet.svg';
 import EmailIcon from '../images/email.png';
 import MeCartoon from '../images/me-cartoon.png';
 
@@ -73,6 +74,16 @@ const IndexPage = ({data}) => {
           </div>
           </a>
 
+          <a href="https://himashi.ca/">
+          <div className="icon-link">
+            <img src={InternetIcon} alt="Website Icon" height="40px" width="40px"/>
+            <div>
+              <p className="icon-name">Personal Website</p>
+              <p className="link-address">himashi.ca</p>
+            </div>
+          </div>
+          </a>
+
           <a href="mailto:himashi.hettegedona@icloud.com">
           <div className="icon-link">
             <img src={EmailIcon} alt="Email Icon" height="40px" width="40px"/>
@@ -114,6 +125,16 @@ const IndexPage = ({data}) => {
         <div>
           <p className="icon-name">Medium</p>
           <p className="link-address">@himashi99</p>
+        </div>
+      </div>
+      </a>
+
+      <a href="https://himashi.ca/">
+      <div className="icon-link">
+        <img src={InternetIcon} alt="Website Icon" height="40px" width="40px"/>
+        <div>
+          <p className="icon-name">Personal Website</p>
+          <p className="link-address">@himashi.ca</p>
         </div>
       </div>
       </a>

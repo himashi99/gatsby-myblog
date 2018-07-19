@@ -5,6 +5,7 @@ import GithubIcon from '../images/github.svg';
 import TwitterIcon from '../images/twitter.svg';
 import MediumIcon from '../images/medium.svg';
 import EmailIcon from '../images/email.png';
+import InternetIcon from '../images/internet.svg';
 import HeartIcon from '../images/hearts.svg';
 
 const Footer = () => (
@@ -23,6 +24,11 @@ const Footer = () => (
       <a href="https://medium.com/@himashi99">
       <div className="footer-link">
         <img src={MediumIcon} alt="Meidum Icon" height="25px" width="25px"/>
+      </div>
+      </a>
+      <a href="https://himashi.ca/">
+      <div className="footer-link">
+        <img src={InternetIcon} alt="Website Icon" height="25px" width="25px"/>
       </div>
       </a>
       <a href="mailto:himashi.hettegedona@icloud.com">
