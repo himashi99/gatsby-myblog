@@ -20,12 +20,7 @@ const IndexPage = ({data}) => {
 
     <container>
 
-      <div className="blog-post-box"
-        style={{
-          margin: '0 10px 0 100px',
-          padding: '0px 1.0875rem 1.45rem',
-          paddingTop: 0,
-        }}>
+      <div className="blog-post-box">
 
         {data.allMarkdownRemark.edges.map(({node}) => (
         <Link to={node.fields.slug} style={{textDecoration: 'none', color: 'inherit'}}>
@@ -86,6 +81,49 @@ const IndexPage = ({data}) => {
         </div>
       </section>
     </container>
+
+    <div className="links-box-mobile">
+      <a href="https://github.com/himashi99">
+      <div className="icon-link">
+        <img src={GithubIcon} alt="Github Icon" height="40px" width="40px"/>
+        <div>
+          <p className="icon-name"> Github</p>
+          <p className="link-address">@himashi99</p>
+        </div>
+      </div>
+      </a>
+
+      <a href="https://twitter.com/himashi99">
+      <div className="icon-link">
+        <img src={TwitterIcon} alt="Twitter Icon" height="40px" width="40px"/>
+        <div>
+          <p className="icon-name">Twitter</p>
+          <p className="link-address">@himashi99</p>
+        </div>
+      </div>
+      </a>
+
+      <a href="https://medium.com/@himashi99">
+      <div className="icon-link">
+        <img src={MediumIcon} alt="Meidum Icon" height="40px" width="40px"/>
+        <div>
+          <p className="icon-name">Medium</p>
+          <p className="link-address">@himashi99</p>
+        </div>
+      </div>
+      </a>
+
+      <a href="mailto:himashi.hettegedona@icloud.com">
+      <div className="icon-link">
+        <img src={EmailIcon} alt="Email Icon" height="40px" width="40px"/>
+        <div>
+          <p className="icon-name">Email</p>
+          <p className="link-address">himashi.hettegedona@icloud.com</p>
+        </div>
+      </div>
+      </a>
+
+    </div>
     <Footer/>
   </div>
   )
