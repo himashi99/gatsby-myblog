@@ -1,6 +1,6 @@
 import React from "react";
 import Header from '../components/header'
-import Footer from '../components/footer'
+import FooterBlogPost from '../components/footer-blogpost'
 
 export default ({ data }) => {
     const post = data.markdownRemark;
@@ -19,7 +19,7 @@ export default ({ data }) => {
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
         </div>
-          <Footer/>
+          <FooterBlogPost/>
         </div>
     );
 };

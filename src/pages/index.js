@@ -98,6 +98,7 @@ const IndexPage = ({data}) => {
       </section>
     </container>
 
+{/* Separate links for mobile version only due to layout */}
     <div className="links-box-mobile">
       <a href="https://github.com/himashi99">
       <div className="icon-link">

@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
   <div>
 
   </div>
-    <div
+    <div className="blog-post-header"
       style={{
         margin: '0 auto',
         maxWidth: 960,

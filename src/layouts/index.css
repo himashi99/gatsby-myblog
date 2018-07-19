@@ -17,7 +17,7 @@ body {
   margin: 0;
 }
 
-footer {
+.footer-index {
   display: flex;
   justify-content: space-between;
 }
@@ -32,6 +32,28 @@ footer {
 }
 
 .copyright {
+  padding-right: 119px;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+/* footer on blogposts */
+.footer-blogpost {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links-box-blogpost {
+  display: flex;
+  padding-left: 119px;
+}
+
+.footer-link-blogpost {
+  padding-right: 40px;
+}
+
+.copyright-blogpost {
   padding-right: 119px;
   font-size: 14px;
   font-family: 'Lato', sans-serif;
@@ -177,6 +199,21 @@ span {
 
 .blog-post-container {
   height: 95vh;
+}
+
+.blog-post-header {
+  display: flex;
+  align-items: flex-end;
+}
+
+.blog-post-header a {
+  height: 70px;
+}
+
+.blog-post-header img {
+  margin-bottom: 0;
+  position: relative;
+  top: -15px;
 }
 
 article,
@@ -850,6 +887,34 @@ pre tt:after {
   .about-me-header h6 {
     letter-spacing: 0.3rem;
     font-size: 0.7rem;
+  }
+
+  .blog-post-header {
+    align-items: center;
+  }
+
+  .blog-post-header img {
+    top: -5px;
+  }
+
+  /* footer for blogposts */
+  .footer-blogpost {
+    display: block;
+  }
+
+  .footer-links-box-blogpost {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .footer-link-blogpost {
+    padding-right: 20px;
+  }
+
+  .copyright-blogpost {
+    text-align: center;
+    padding-right: 0;
   }
 }
 
