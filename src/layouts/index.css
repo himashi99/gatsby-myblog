@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html {
   font-family: sans-serif;
@@ -35,6 +36,25 @@ footer {
   font-size: 14px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
+}
+
+.about-me-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.about-me-header img {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.about-me-header h6 {
+  margin-bottom: 0;
+  margin-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
 }
 
 container {

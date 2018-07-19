@@ -8,12 +8,17 @@ import GithubIcon from '../images/github.svg';
 import TwitterIcon from '../images/twitter.svg';
 import MediumIcon from '../images/medium.svg';
 import EmailIcon from '../images/email.png';
+import MeCartoon from '../images/me-cartoon.png';
 
 
 const IndexPage = ({data}) => {
   console.log(data)
   return(
   <div>
+  <div className="about-me-header">
+    <Link to="page-2"> <img src={MeCartoon} height="70px" width="70px"/></Link>
+    <h6>About Me</h6>
+  </div>
     <div>
        <img src={BannerImage}/>
     </div>
