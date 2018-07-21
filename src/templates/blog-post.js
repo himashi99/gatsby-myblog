@@ -15,7 +15,7 @@ export default ({ data }) => {
             padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
           }}>
-            <h1>{post.frontmatter.title}</h1>
+            <h1 className="blog-post-title">{post.frontmatter.title}</h1>
             <div className="blog-post-paragraph" dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
         </div>

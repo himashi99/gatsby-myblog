@@ -912,6 +912,10 @@ pre tt:after {
     font-size: 1.7rem;
   }
 
+  .blog-post-title {
+    font-size: 1.5rem;
+  }
+
   /* footer for blogposts */
   .footer-blogpost {
     display: block;
@@ -941,5 +945,25 @@ pre tt:after {
   }
   .email-address {
     font-size: 0.6rem;
+  }
+  /* footer for blogposts */
+  .footer-blogpost {
+    display: block;
+    position: relative;
+  }
+
+  .footer-links-box-blogpost {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .footer-link-blogpost {
+    padding-right: 20px;
+  }
+
+  .copyright-blogpost {
+    text-align: center;
+    padding-right: 0;
   }
 }
