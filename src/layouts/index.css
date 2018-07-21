@@ -42,6 +42,9 @@ body {
 .footer-blogpost {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-links-box-blogpost {
@@ -197,9 +200,9 @@ span {
   height: 100%;
 }
 
-.blog-post-container {
-  height: 95vh;
-}
+/* .blog-post-container {
+  height: 100%;
+} */
 
 .blog-post-header {
   display: flex;
@@ -904,6 +907,7 @@ pre tt:after {
   /* footer for blogposts */
   .footer-blogpost {
     display: block;
+    position: relative;
   }
 
   .footer-links-box-blogpost {
