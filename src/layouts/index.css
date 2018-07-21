@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
 html {
   font-family: sans-serif;
@@ -123,6 +124,13 @@ container {
   margin: 0 10px 0 100px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
+}
+
+.blog-post-paragraph {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7rem;
+  font-size: 0.9em;
+  font-weight: 500;
 }
 
 section {
