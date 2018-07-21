@@ -160,7 +160,7 @@ export default IndexPage
 
 export const  query = graphql`
 query HomePageQuery{
-  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+  allMarkdownRemark(filter: { frontmatter: { published: { eq: true } } } sort: {fields: [frontmatter___date], order: DESC}) {
     totalCount
     edges {
       node {
@@ -170,6 +170,7 @@ query HomePageQuery{
         frontmatter {
           title
           date
+          published
         }
         excerpt
         timeToRead

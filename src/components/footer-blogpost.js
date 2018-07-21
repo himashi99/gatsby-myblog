@@ -38,7 +38,7 @@ const PostFooter = () => (
       </a>
     </div>
     <div className="copyright-blogpost">
-      <p>Made with <img src={HeartIcon} alt="Heart Icon" height="14px" width="14px"/> by Himashi Hettege Dona</p>
+      <p>© 2018 Made with <img src={HeartIcon} alt="Heart Icon" height="14px" width="14px"/> by Himashi Hettege Dona</p>
     </div>
   </footer>
 );
