@@ -7,5 +7,7 @@ yarn-error.log
 /public
 .DS_Store
 
-# ignore all logs
+# ignore all psd files
 *.psd
+
+*src/images/me-cartoon.psd
