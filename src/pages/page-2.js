@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 
 const SecondPage = () => (
   <div>
-    <h1>Hi, I{`'`} Himashi</h1>
+    <h1>Hi, I{`'`}m Himashi</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
     {/* <Rectangle/> */}
